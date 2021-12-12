@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+.display-1, .display-5 {
+    color: white;
+}
+.navbar-nav { 
+    padding-top: 20px;
+    flex-flow: row nowrap;
+}
+.container {
+    padding-bottom: 75px;
+}
+.arrow {
+    display: inline-flex;
+    vertical-align: middle;
+}
+            video {
+                width: 100%;
+            }
+.thumbnail {
+    max-width: 100px;
+} 
+/* Small */
+@media (min-width: 576px) {
+    .thumbnail {
+        max-width: 125px;
+    }
+}
+/* Medium */
+@media (min-width: 768px) {
+    .thumbnail {
+        max-width: 175px;
+    }
+}
+/* Large */
+@media (min-width: 992px) { 
+    .thumbnail {
+        max-width: 225px;
+    }
+}
+/* Extra Large */
+@media (min-width: 1200px) { 
+    .thumbnail {
+        max-width: 275px;
+    }
+}
